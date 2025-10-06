@@ -1,0 +1,46 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Test binary
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+storage/logs/*.log
+storage/logs/*.log.*
+storage/logs/*.gz
+
+# Uploads - ignore all files but keep directory structure
+storage/uploads/avatars/*
+!storage/uploads/avatars/.gitkeep
+storage/uploads/temp/*
+!storage/uploads/temp/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+tmp/
